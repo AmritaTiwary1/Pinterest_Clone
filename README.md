@@ -59,7 +59,7 @@ npm start
 This will run the app on http://localhost:3000.
 
 
-###Contributing
+### Contributing
 Feel free to fork the repository and submit pull requests! If you find any bugs or have suggestions for new features, please open an issue on GitHub.
 
 #Acknowledgements
@@ -70,6 +70,6 @@ uuid for generating unique identifiers.
 
 
 
-##Thank you for checking out my project!
+## Thank you for checking out my project!
 
 
