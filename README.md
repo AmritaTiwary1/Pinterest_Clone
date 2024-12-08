@@ -58,17 +58,18 @@ Copy code
 npm start
 This will run the app on http://localhost:3000.
 
-Features Demo
-Here is a quick demo of the app:
 
-Contributing
+#Contributing
 Feel free to fork the repository and submit pull requests! If you find any bugs or have suggestions for new features, please open an issue on GitHub.
 
-Acknowledgements
+#Acknowledgements
 Passport.js and passport-local for user authentication.
 Multer for file uploads.
 MongoDB and Mongoose for persistent data storage.
 uuid for generating unique identifiers.
-Thank you for checking out my project!
+
+
+
+#Thank you for checking out my project!
 
 
