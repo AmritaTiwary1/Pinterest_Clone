@@ -1,9 +1,25 @@
-var express = require('express');
-var router = express.Router();
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/PinterestClone');
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+const passport = require('passport');
+const plm = require('passport-local-mongoose');
+
+
+// Define the schema for the user model
+const userSchema = new mongoose.Schema({
+   username:String,
+   name:String,
+   email:String,
+   password:String,
+   profileImage:String,
+   contact:Number,
+   boards:{
+    type:Array,
+    default:[]
+   }
 });
 
-module.exports = router;
+userSchema.plugin(plm);
+
+
+module.exports = mongoose.model('User', userSchema);
