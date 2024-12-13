@@ -7,5 +7,21 @@
   <link rel="stylesheet" href="/stylesheets/style.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<% if(nav === true){ %>
+<div class="w-full px-10 py-3 flex justify-between text-white bg-zinc-800 items-center " >
+  <h3>Pinterest</h3>
+  <div class="flex gap-10 items-center" >
+    <a href="/profile"> Profile </a>
+    <a href="/feed"> Feed </a>
+
+    <% if(loggedIn == false){ %>
+     <a class="px-3 py-2 bg-red-700 text-white rounded-lg" href="/login">Login</a>
+     <% } else { %>
+    <a class="px-3 py-2 bg-red-700 text-white rounded-lg "href="/logout"> Logout </a>
+ <% } %>
+  </div>
+</div>
+<% } %> 
+
 <body>
  
