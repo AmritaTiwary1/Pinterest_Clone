@@ -1,6 +1,6 @@
 # Pinterest Clone - Full Stack Web App
 
-This project is a **Pinterest Clone** built with **Node.js**, **Express.js**, and **MongoDB**. The website replicates key features of Pinterest, allowing users to create, view, and share pinboards. It also includes features like user authentication, image uploading, and session management.
+This project is a **Pinterest Clone** built with **Node.js**, **Express.js**, and **MongoDB**. The website replicates key features of Pinterest, allowing users to create, view. It also includes features like user authentication, image uploading, and session management.
 
 ## Features
 
